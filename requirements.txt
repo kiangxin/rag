@@ -1,0 +1,34 @@
+# Core dependencies
+python-dotenv==1.1.0
+
+# LLM and embeddings
+openai==1.73.0
+tiktoken==0.9.0
+litellm==1.66.0
+langchain
+langchain-community
+langchain-openai
+pymupdf4llm>=0.0.24
+sentence-transformers
+
+# Vector databases
+faiss-cpu
+chromadb==0.4.22
+
+# Data processing
+numpy
+pandas
+scikit-learn>=1.4.0
+
+# Frontend
+streamlit
+
+# Utilities
+tqdm==4.67.1
+tenacity==8.2.3
+
+# Testing
+pytest==7.4.3
+
+# Documentation
+notebook==7.0.6 
